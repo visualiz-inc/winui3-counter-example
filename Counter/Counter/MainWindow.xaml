@@ -1,0 +1,30 @@
+﻿<Window
+    x:Class="Counter.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Counter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Click="HandleCounter1">Counter 1</Button>
+            <TextBlock Text="{x:Bind Bindable.Count,Mode=OneWay}" Margin="20,0,0,0"/>
+        </StackPanel>
+        
+        <StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Click="HandleCounter2">Counter 2</Button>
+            <TextBlock Text="{x:Bind Counter.Value,Mode=OneWay}" Margin="20,0,0,0"/>
+        </StackPanel>
+        
+        <StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Click="HandleFib">Fib</Button>
+            <TextBlock Text="{x:Bind Bindable.FibText,Mode=OneWay}" Margin="20,0,0,0"/>
+        </StackPanel>
+
+        <StackPanel Margin="0,20,0,0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox MinWidth="300" Text="{x:Bind Text.Value,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  PlaceholderText="テキスト"/>
+            <TextBlock Text="{x:Bind Text.Value,Mode=OneWay}" Margin="20,0,0,0"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

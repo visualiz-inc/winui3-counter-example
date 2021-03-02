@@ -1,0 +1,187 @@
+{
+  "version": 3,
+  "targets": {
+    "UAP,Version=v10.0.17763": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x64": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x86": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    },
+    "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "Counter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Counter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Counter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Counter/1.0.0": {
+      "type": "project",
+      "path": "../Counter/Counter.csproj",
+      "msbuildProject": "../Counter/Counter.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "UAP,Version=v10.0.17763": [
+      "Counter >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Root\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Root\\source\\repos\\Counter\\Counter\\Counter (Package)\\Counter (Package).wapproj",
+      "projectName": "Counter (Package)",
+      "projectPath": "C:\\Users\\Root\\source\\repos\\Counter\\Counter\\Counter (Package)\\Counter (Package).wapproj",
+      "packagesPath": "C:\\Users\\Root\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Root\\source\\repos\\Counter\\Counter\\Counter (Package)\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Root\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "uap10.0.17763"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "projectReferences": {
+            "C:\\Users\\Root\\source\\repos\\Counter\\Counter\\Counter\\Counter.csproj": {
+              "projectPath": "C:\\Users\\Root\\source\\repos\\Counter\\Counter\\Counter\\Counter.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "uap10.0.17763": {
+        "imports": [
+          "net5.0-windows10.0.19041"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-arm64-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  }
+}
