@@ -31,17 +31,17 @@
     <AppXManifest Include="C:\Users\Root\source\repos\Counter\Counter\Counter %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-02T14:00:37.460</Modified>
+      <Modified>2021-03-03T15:00:04.467</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Root\source\repos\Counter\Counter\Counter\bin\x86\Debug\net5.0-windows10.0.18362.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-02T14:00:34.272</Modified>
+      <Modified>2021-03-03T15:00:02.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Root\source\repos\Counter\Counter\Counter\bin\x86\Debug\net5.0-windows10.0.18362.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2021-03-02T14:00:34.272</Modified>
+      <Modified>2021-03-03T15:00:02.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Root\source\repos\Counter\Counter\Counter\bin\x86\Debug\net5.0-windows10.0.18362.0\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png">
       <PackagePath>Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png</PackagePath>
@@ -95,11 +95,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Root\source\repos\Counter\Counter\Counter\obj\x86\Debug\net5.0-windows10.0.18362.0\apphost.exe">
       <PackagePath>Counter\Counter.exe</PackagePath>
-      <Modified>2021-03-02T14:00:34.371</Modified>
+      <Modified>2021-03-03T15:00:02.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Root\source\repos\Counter\Counter\Counter\obj\x86\Debug\net5.0-windows10.0.18362.0\Counter.dll">
       <PackagePath>Counter\Counter.dll</PackagePath>
-      <Modified>2021-03-02T14:00:34.356</Modified>
+      <Modified>2021-03-03T15:00:02.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Root\source\repos\Counter\Counter\Counter\bin\x86\Debug\net5.0-windows10.0.18362.0\Counter.runtimeconfig.json">
       <PackagePath>Counter\Counter.runtimeconfig.json</PackagePath>

@@ -6,26 +6,33 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:ConnectionId='8'                       >Counter 1</Button>
-            <TextBlock x:ConnectionId='9'                                            Margin="20,0,0,0"/>
-        </StackPanel>
-        
-        <StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:ConnectionId='6'                       >Counter 2</Button>
-            <TextBlock x:ConnectionId='7'                                           Margin="20,0,0,0"/>
-        </StackPanel>
-        
-        <StackPanel Margin="0,20,0,0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:ConnectionId='4'                  >Fib</Button>
-            <TextBlock x:ConnectionId='5'                                              Margin="20,0,0,0"/>
+    <Grid Padding="12">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="12">
+            <TextBlock>実行するプログラム</TextBlock>
+            <TextBox x:ConnectionId='3' Margin="0,8"                                                                                PlaceholderText="実行するプログラム"></TextBox>
+            <TextBlock>コマンドライン引数</TextBlock>
+            <TextBox x:ConnectionId='4' Margin="0,8"                                                                            PlaceholderText="コマンドライン引数"></TextBox>
+            <Button x:ConnectionId='5'  HorizontalAlignment="Center" Margin="0,8"  Content="Excute"                       />
         </StackPanel>
 
-        <StackPanel Margin="0,20,0,0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBox x:ConnectionId='2' MinWidth="300"                                                                              PlaceholderText="テキスト"/>
-            <TextBlock x:ConnectionId='3'                                        Margin="20,0,0,0"/>
-        </StackPanel>
-    </StackPanel>
+        <Grid Background="{ThemeResource SystemControlBackgroundListLowBrush}" Grid.Column="1" Margin="12">
+            <ListView x:ConnectionId='2' Grid.Column="1"                                   x:Name="logView">
+                <ListView.Transitions>
+                    <TransitionCollection>
+                    </TransitionCollection>
+                </ListView.Transitions>
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsStackPanel ItemsUpdatingScrollMode="KeepLastItemInView" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+        </Grid>
+    </Grid>
 </Window>
 
